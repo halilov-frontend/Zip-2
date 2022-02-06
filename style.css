@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('background.jpg');
+    background-position: center top;
+    background-size: cover;
+    font-family: "Roboto",sans-serif;
+
+}
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 65px;
+}
+.site-header {
+    width: 500px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.conteiner {
+    /* padding: 20px 30px 10px 30px; */
+    margin-top: 30px;
+}
+.header-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.main-button {
+    width: 5px;
+    height: 11px;
+    border: none;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.main-button-1 {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.center {
+    text-align: center;
+}
+.main-connect {
+    display: flex;
+    align-items: center;
+    border-top: 3px solid rgba(0, 0, 0, 0.5);
+    /* margin-top: 10px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.main-connect:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.main-connect-text {
+    margin-left: 20px;
+}
+.step {
+    background-color: royalblue;
+    margin: 0;
+    padding: 8px 24px;
+    position: relative;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0px 8px 8px;
+    /* margin-top: 30px; */
+    
+}
